@@ -70,6 +70,9 @@ body{
     min-width: 100%; 
     z-index: -1000; 
 }
+.video-bg2{
+    display: none;
+}
 .cont_video::before{
     position: absolute;
     content: '';
@@ -267,4 +270,29 @@ body{
     left: 0;
     transition: 0.5s all ease-out ;
 
+}
+
+
+
+
+/* Tercera parte */
+
+.content-tree-part{
+    height: 290px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.content-info{
+    height: 290px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
