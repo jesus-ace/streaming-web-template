@@ -118,7 +118,7 @@
         background-position: center center; 
         background-size: cover;
         width: 100%; 
-        max-width: 640px; 
+        max-width: 480px; 
         z-index: -1000; 
     }
     .cont_video::before{

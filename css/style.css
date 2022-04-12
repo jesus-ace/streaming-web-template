@@ -41,7 +41,7 @@ body{
 }
 .content-banner{
     color: #ffffff;
-    /* background-image: url(../images/banner-villa.jpg); */
+    background-image: url(../images/example-serie.jpeg);
     min-height: 650px;
     height: 100%;
     position:relative;
@@ -83,7 +83,7 @@ body{
     left: 0;
 }
 .content-banner .first-title{
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 1.2;
     position: relative;
@@ -91,13 +91,14 @@ body{
     margin: 0px 0px 12px; 
 }
 .content-banner .banner-des{
-    font-size: 22px;
+    font-size: 14px;
     line-height: 150%;
     letter-spacing: 0;
     position: relative;
     z-index: 2;
     font-weight: 400;
     margin-top: 0;
+    width: 580px;
 }
 .header{
     position:absolute;
@@ -269,6 +270,7 @@ body{
     position: absolute;
     left: 0;
     transition: 0.5s all ease-out ;
+    height: 375px;
 
 }
 
@@ -295,4 +297,29 @@ body{
     position: absolute;
     left: 0;
     width: 100%;
+}
+
+
+/* series cpitulos  */
+
+.bar-seasons{
+    height: 33px; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+}
+.options-seasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transition: 0.5s all ease-out ;
+    height: 33px;
+    padding: 30px;
 }
