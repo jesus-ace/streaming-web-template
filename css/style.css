@@ -27,6 +27,18 @@ body{
     src: url(../fonts/caviarDreams/CaviarDreams.ttf);
 }
 
+@font-face {
+    font-family: RobertoSans-Bold;
+    src: url(../fonts/RobertoSans/RobertoSans-Bold.ttf);
+}
+@font-face {
+    font-family: RobertoSans-mediun;
+    src: url(../fonts/RobertoSans/RobertoSans-Medium.ttf);
+}
+@font-face {
+    font-family: RobertoSans-Ligth;
+    src: url(../fonts/RobertoSans/RobertoSans-Light.ttf);
+}
 
 .image{
 	width: 510px;
@@ -41,7 +53,7 @@ body{
 }
 .content-banner{
     color: #ffffff;
-    background-image: url(../images/example-serie.jpeg);
+    background-image: url(../images/Banner_1920x1080px.jpg);
     min-height: 750px;
     height: 100%;
     position:relative;
@@ -136,7 +148,7 @@ body{
 }
 
 .navbar-scroll .nav-item .nav-link{
-    color: #0066CC;
+    color: #f5f5f5;
 
 }
 .navbar-scroll .nav-item .nav-link:hover{
@@ -144,10 +156,10 @@ body{
 
 }
 .font-text-bold{
-    font-family: Caviar Dreamsb;
+    font-family: RobertoSans-Bold;
 }
 .font-text{
-    font-family: Caviar Dreams;
+    font-family: RobertoSans-mediun;
 }
 .default {
     position:                 absolute;
@@ -194,7 +206,7 @@ body{
        background-color: rgb(15, 15, 15); !important;
     }
     .nav-item > .nav-link{
-        color: #0066CC !important;
+        color: #f5f5f5 !important;
     }
     .nav-item > .nav-link:hover{
         color: #f5f5f5 !important;
@@ -239,8 +251,24 @@ body{
     background-size: 50% 50%; 
     height: 375px; 
     width: 55px; 
-    background-color: rgba(15, 15, 15, 0.85);
+    background: linear-gradient(90deg, rgba(255,255,255,0.1), #030303);
 }
+
+.horizontal-scroll .btn-scrollL{
+    /* background-color: #ffffff;
+    color: #999;
+    box-shadow: 0 0 10px #999; */
+    padding: 5px 8px;
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    background-size: 50% 50%; 
+    height: 375px; 
+    width: 55px; 
+    background: linear-gradient(90deg, #030303, rgba(255,255,255,0.1));
+}
+
 
 .programacion-container{
     display: flex;
@@ -256,7 +284,7 @@ body{
 
 
 .horizontal-scroll2{
-    height: 370px; 
+    height: 210px; 
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -275,9 +303,9 @@ body{
     cursor: pointer;
     /* border-radius: 50%; */
     background-size: 50% 50%; 
-    height: 375px; 
+    height: 210px; 
     width: 55px; 
-    background-color: rgba(15, 15, 15, 0.85);
+    background: linear-gradient(90deg, rgba(255,255,255,0.1), #030303);
 }
 
 .programacion-container2{
