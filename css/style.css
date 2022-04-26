@@ -17,6 +17,8 @@ body{
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
+    /* background: linear-gradient(-320deg, #0066CC,#030303); */
+	/* background-size: 100% 50%; */
 }
 @font-face {
     font-family: Caviar Dreamsb;
@@ -251,7 +253,7 @@ body{
     background-size: 50% 50%; 
     height: 375px; 
     width: 55px; 
-    background: linear-gradient(90deg, rgba(255,255,255,0.1), #030303);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.048), #030303);
 }
 
 .horizontal-scroll .btn-scrollL{
@@ -266,7 +268,7 @@ body{
     background-size: 50% 50%; 
     height: 375px; 
     width: 55px; 
-    background: linear-gradient(90deg, #030303, rgba(255,255,255,0.1));
+    background: linear-gradient(90deg, #030303, rgba(255,255,255,0.048));
 }
 
 
@@ -305,7 +307,21 @@ body{
     background-size: 50% 50%; 
     height: 210px; 
     width: 55px; 
-    background: linear-gradient(90deg, rgba(255,255,255,0.1), #030303);
+    background: linear-gradient(90deg, rgba(255,255,255,0.048), #030303);
+}
+.horizontal-scroll2 .btn-scrollL{
+    /* background-color: #ffffff;
+    color: #999;
+    box-shadow: 0 0 10px #999; */
+    padding: 5px 8px;
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    background-size: 50% 50%; 
+    height: 210px; 
+    width: 55px; 
+    background:linear-gradient(90deg, #030303, rgba(255,255,255,0.048));
 }
 
 .programacion-container2{
